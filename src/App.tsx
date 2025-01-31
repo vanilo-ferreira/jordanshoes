@@ -13,6 +13,16 @@ function App() {
           jogador Michael Jordan.
         </p>
       </div>
+
+      <div>
+        <div>
+          <h4>Os melhores em um só lugar</h4>
+          <p>
+            A marca Jordan na JordanShoes é a escolha certa para os amantes de
+            sneakers que buscam estilo e conforto.
+          </p>
+        </div>
+      </div>
     </>
   );
 }
