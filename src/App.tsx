@@ -1,3 +1,5 @@
+import "./App.css";
+
 import jordan1 from "./assets/jordan1.svg";
 import jordan2 from "./assets/jordan2.svg";
 import jordan3 from "./assets/jordan3.svg";
@@ -8,8 +10,8 @@ import jordan6 from "./assets/jordan6.svg";
 function App() {
   return (
     <>
-      <div>
-        <p>Frete grátis para todo o Brasil</p>
+      <div className="top">
+        <p className="topText">Frete grátis para todo o Brasil</p>
       </div>
 
       <div>
