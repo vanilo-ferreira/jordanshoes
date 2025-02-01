@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: "Inter";
+  font-family: Archivo;
 }
 
 html,
@@ -50,11 +50,24 @@ body {
 .logoImage {
   width: 48px;
   height: 48px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .textLogo {
   font-family: Archivo;
   font-size: 24px;
   font-weight: 500;
+}
+
+.bannerTitle {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34.82px;
+  margin-bottom: 20px;
+}
+
+.descriptionText {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
 }

@@ -22,8 +22,8 @@ function App() {
           <p className="textLogo">JordanShoes</p>
         </div>
 
-        <h4>A melhor loja de Jordan</h4>
-        <p>
+        <h1 className="bannerTitle">A melhor loja de Jordan</h1>
+        <p className="descriptionText">
           O tênis Jordan é fruto de uma velha e forte <br /> parceria entre a
           Nike e o jogador Michael Jordan.
         </p>
