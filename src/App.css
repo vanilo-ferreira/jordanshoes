@@ -23,3 +23,38 @@ body {
   font-weight: 500;
   line-height: 26.11px;
 }
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.png");
+  background-size: 100% 300%;
+  background-position: top 10% left 80%;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 400px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 300px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logoImage {
+  width: 48px;
+  height: 48px;
+  margin-right: 5px;
+}
+
+.textLogo {
+  font-family: Archivo;
+  font-size: 24px;
+  font-weight: 500;
+}

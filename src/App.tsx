@@ -1,5 +1,7 @@
 import "./App.css";
 
+import logo from "./assets/logo.svg";
+
 import jordan1 from "./assets/jordan1.svg";
 import jordan2 from "./assets/jordan2.svg";
 import jordan3 from "./assets/jordan3.svg";
@@ -14,12 +16,16 @@ function App() {
         <p className="topText">Frete grátis para todo o Brasil</p>
       </div>
 
-      <div>
-        <p>JordanShoes</p>
+      <div className="banner">
+        <div className="logo">
+          <img className="logoImage" src={logo} alt="logo" />
+          <p className="textLogo">JordanShoes</p>
+        </div>
+
         <h4>A melhor loja de Jordan</h4>
         <p>
-          O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o
-          jogador Michael Jordan.
+          O tênis Jordan é fruto de uma velha e forte <br /> parceria entre a
+          Nike e o jogador Michael Jordan.
         </p>
       </div>
 
