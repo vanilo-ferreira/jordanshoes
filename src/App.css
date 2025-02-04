@@ -203,12 +203,69 @@ body {
   .cardTitle {
     font-size: 18px;
   }
-  
+
   .cardDescription {
     font-size: 14px;
   }
 
   .cardValue {
-    font-size: 18px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .top {
+    height: 39px;
+  }
+
+  .topText {
+    font-size: 14px;
+  }
+
+  .banner {
+    background-image: linear-gradient(rgba(18, 18, 20, 0.75), rgba(rgba(18, 18, 20, 0.75))),
+      url("./assets/banner.png");
+    background-size: 100% 135%;
+    background-position: right 20%;
+    padding-left: 20px;
+  }
+
+  .descriptionText {
+    font-size: 16px;
+    width: 328px;
+  }
+
+  .catalogText {
+    max-width: 520px;
+  }
+
+  .catalogTitle {
+    font-size: 20px;
+  }
+
+  .catalogParagraph {
+    font-size: 14px;
+    width: 319px;
+  }
+
+  .card {
+    width: 319px;
+    height: 326px;
+  }
+
+  .cardImage {
+    width: 319px;
+  }
+
+  .cardTitle {
+    font-size: 16px;
+  }
+
+  .cardDescription {
+    font-size: 16px;
+  }
+
+  .cardValue {
+    font-size: 20px;
   }
 }
