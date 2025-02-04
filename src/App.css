@@ -20,7 +20,6 @@ body {
 .topText {
   font-size: 24px;
   font-weight: 500;
-  line-height: 26.11px;
 }
 
 .banner {
@@ -60,14 +59,12 @@ body {
 .bannerTitle {
   font-size: 32px;
   font-weight: 500;
-  line-height: 34.82px;
   margin-bottom: 20px;
 }
 
 .descriptionText {
   font-size: 24px;
   font-weight: 400;
-  line-height: 33.6px;
 }
 
 .catalog {
@@ -89,26 +86,25 @@ body {
 .catalogTitle {
   font-size: 32px;
   font-weight: 600;
-  line-height: 34.82px;
   margin-bottom: 20px;
 }
 
 .catalogParagraph {
   font-size: 24px;
   font-weight: 400;
+  text-align: center;
 }
 
 .containerCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .card {
   max-width: 384px;
   max-height: 326px;
-  margin: 15px;
+  margin: 10px;
 }
 
 .cardImage {
@@ -146,4 +142,73 @@ body {
   font-family: Space Grotesk;
   font-size: 20px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .top {
+    height: 41px;
+  }
+
+  .topText {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .banner {
+    background-image: linear-gradient(rgba(18, 18, 20, 0.75), rgba(rgba(18, 18, 20, 0.75))),
+      url("./assets/banner.png");
+    background-size: 100% 120%;
+    background-position: top 0% left 100%;
+    padding-left: 40px;
+  }
+
+  .logoImage {
+    width: 24px;
+    height: 24px;
+  }
+
+  .textLogo {
+    font-size: 18px;
+  }
+
+  .bannerTitle {
+    font-size: 24px;
+  }
+
+  .descriptionText {
+    font-size: 18px;
+  }
+
+  .catalogText {
+    max-width: 520px;
+  }
+
+  .catalogTitle {
+    font-size: 24px;
+  }
+
+  .catalogParagraph {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 336px;
+    height: 326px;
+  }
+
+  .cardImage {
+    width: 336px;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+  }
+
+  .cardValue {
+    font-size: 18px;
+  }
 }
