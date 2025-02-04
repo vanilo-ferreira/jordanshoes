@@ -29,24 +29,24 @@ function App() {
         </p>
       </div>
 
-      <div>
-        <div>
-          <h4>Os melhores em um só lugar</h4>
-          <p>
+      <div className="catalog">
+        <div className="catalogText">
+          <h4 className="catalogTitle">Os melhores em um só lugar</h4>
+          <p className="catalogParagraph">
             A marca Jordan na JordanShoes é a escolha certa para os amantes de
             sneakers que buscam estilo e conforto.
           </p>
         </div>
 
-        <div>
-          <div>
-            <div>
+        <div className="containerCards">
+          <div className="card">
+            <div className="cardImage">
               <img src={jordan1} alt="Air Jordan 1 Mid Dutch Green" />
             </div>
-            <div>
-              <p>Air Jordan 1 Mid Dutch Green</p>
-              <p>Tênis Air Jordan</p>
-              <p>R$ 1.199,99</p>
+            <div className="cardText">
+              <p className="cardTitle">Air Jordan 1 Mid Dutch Green</p>
+              <p className="cardDescription">Tênis Air Jordan</p>
+              <p className="cardValue">R$ 1.199,99</p>
             </div>
           </div>
 
