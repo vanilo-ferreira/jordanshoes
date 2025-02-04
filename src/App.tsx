@@ -42,7 +42,7 @@ function App() {
         <div className="containerCards">
           <div className="card">
             <div className="cardImage">
-              <img src={jordan1} alt="Air Jordan 1 Mid Dutch Green" />
+              <img className="image" src={jordan1} alt="Air Jordan 1 Mid Dutch Green" />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid Dutch Green</p>
@@ -53,7 +53,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img
+              <img className="image"
                 src={jordan2}
                 alt="Air Jordan 1 High Zoom CMFT Tropical Twist"
               />
@@ -67,7 +67,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img src={jordan3} alt="Air Jordan 1 Mid Dutch Lilac" />
+              <img className="image" src={jordan3} alt="Air Jordan 1 Mid Dutch Lilac" />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid Dutch Lilac</p>
@@ -78,7 +78,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img src={jordan4} alt='Air Jordan 1 Mid GS "Light Smoke Grey"' />
+              <img className="image" src={jordan4} alt='Air Jordan 1 Mid GS "Light Smoke Grey"' />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid GS "Light Smoke Grey"</p>
@@ -89,7 +89,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img src={jordan5} alt="Air Jordan 1 Mid SE Bright Citrus" />
+              <img className="image" src={jordan5} alt="Air Jordan 1 Mid SE Bright Citrus" />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid SE Bright Citrus</p>
@@ -100,7 +100,7 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img src={jordan6} alt="Air Jordan 1 Mid Grey Camo" />
+              <img className="image" src={jordan6} alt="Air Jordan 1 Mid Grey Camo" />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid Grey Camo</p>
