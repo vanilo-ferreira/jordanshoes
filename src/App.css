@@ -101,11 +101,14 @@ body {
 .containerCards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .card {
   max-width: 384px;
   max-height: 326px;
+  margin: 15px;
 }
 
 .cardImage {

@@ -30,6 +30,7 @@ function App() {
       </div>
 
       <div className="catalog">
+        
         <div className="catalogText">
           <h4 className="catalogTitle">Os melhores em um só lugar</h4>
           <p className="catalogParagraph">
@@ -50,61 +51,61 @@ function App() {
             </div>
           </div>
 
-          <div>
-            <div>
+          <div className="card">
+            <div className="cardImage">
               <img
                 src={jordan2}
                 alt="Air Jordan 1 High Zoom CMFT Tropical Twist"
               />
             </div>
-            <div>
-              <p>Air Jordan 1 High Zoom CMFT Tropical Twist</p>
-              <p>Tênis Air Jordan</p>
-              <p>R$ 1.049,00</p>
+            <div className="cardText">
+              <p className="cardTitle">Air Jordan 1 High Zoom CMFT Tropical Twist</p>
+              <p className="cardDescription">Tênis Air Jordan</p>
+              <p className="cardValue">R$ 1.049,00</p>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div className="card">
+            <div className="cardImage">
               <img src={jordan3} alt="Air Jordan 1 Mid Dutch Lilac" />
             </div>
-            <div>
-              <p>Air Jordan 1 Mid Dutch Lilac</p>
-              <p>Tênis Air Jordan</p>
-              <p>R$ 1.350,00</p>
+            <div className="cardText">
+              <p className="cardTitle">Air Jordan 1 Mid Dutch Lilac</p>
+              <p className="cardDescription">Tênis Air Jordan</p>
+              <p className="cardValue">R$ 1.350,00</p>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div className="card">
+            <div className="cardImage">
               <img src={jordan4} alt='Air Jordan 1 Mid GS "Light Smoke Grey"' />
             </div>
-            <div>
-              <p>Air Jordan 1 Mid GS "Light Smoke Grey"</p>
-              <p>Tênis Air Jordan</p>
-              <p>R$ 1.585,00</p>
+            <div className="cardText">
+              <p className="cardTitle">Air Jordan 1 Mid GS "Light Smoke Grey"</p>
+              <p className="cardDescription">Tênis Air Jordan</p>
+              <p className="cardValue">R$ 1.585,00</p>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div className="card">
+            <div className="cardImage">
               <img src={jordan5} alt="Air Jordan 1 Mid SE Bright Citrus" />
             </div>
-            <div>
-              <p>Air Jordan 1 Mid SE Bright Citrus</p>
-              <p>Tênis Air Jordan</p>
-              <p>R$ 949,99</p>
+            <div className="cardText">
+              <p className="cardTitle">Air Jordan 1 Mid SE Bright Citrus</p>
+              <p className="cardDescription">Tênis Air Jordan</p>
+              <p className="cardValue">R$ 949,99</p>
             </div>
           </div>
 
-          <div>
-            <div>
+          <div className="card">
+            <div className="cardImage">
               <img src={jordan6} alt="Air Jordan 1 Mid Grey Camo" />
             </div>
-            <div>
-              <p>Air Jordan 1 Mid Grey Camo</p>
-              <p>Tênis Air Jordan</p>
-              <p>R$ 999,99</p>
+            <div className="cardText">
+              <p className="cardTitle">Air Jordan 1 Mid Grey Camo</p>
+              <p className="cardDescription">Tênis Air Jordan</p>
+              <p className="cardValue">R$ 999,99</p>
             </div>
           </div>
         </div>
