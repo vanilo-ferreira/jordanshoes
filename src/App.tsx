@@ -1,8 +1,7 @@
 import "./App.css";
 
 import { Top } from "./components/Top/Top";
-
-import logo from "./assets/logo.svg";
+import { Banner } from "./components/Banner/Banner";
 
 import jordan1 from "./assets/jordan1.svg";
 import jordan2 from "./assets/jordan2.svg";
@@ -16,18 +15,7 @@ function App() {
     <>
       <Top />
 
-      <div className="banner">
-        <div className="logo">
-          <img className="logoImage" src={logo} alt="logo" />
-          <p className="textLogo">JordanShoes</p>
-        </div>
-
-        <h1 className="bannerTitle">A melhor loja de Jordan</h1>
-        <p className="descriptionText">
-          O tênis Jordan é fruto de uma velha e forte <br /> parceria entre a
-          Nike e o jogador Michael Jordan.
-        </p>
-      </div>
+      <Banner />
 
       <div className="catalog">
         <div className="catalogText">
