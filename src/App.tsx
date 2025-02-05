@@ -1,5 +1,7 @@
 import "./App.css";
 
+import { Top } from "./components/Top/Top";
+
 import logo from "./assets/logo.svg";
 
 import jordan1 from "./assets/jordan1.svg";
@@ -12,9 +14,7 @@ import jordan6 from "./assets/jordan6.svg";
 function App() {
   return (
     <>
-      <div className="top">
-        <p className="topText">Frete grátis para todo o Brasil</p>
-      </div>
+      <Top />
 
       <div className="banner">
         <div className="logo">
@@ -30,7 +30,6 @@ function App() {
       </div>
 
       <div className="catalog">
-        
         <div className="catalogText">
           <h4 className="catalogTitle">Os melhores em um só lugar</h4>
           <p className="catalogParagraph">
@@ -42,7 +41,11 @@ function App() {
         <div className="containerCards">
           <div className="card">
             <div className="cardImage">
-              <img className="image" src={jordan1} alt="Air Jordan 1 Mid Dutch Green" />
+              <img
+                className="image"
+                src={jordan1}
+                alt="Air Jordan 1 Mid Dutch Green"
+              />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid Dutch Green</p>
@@ -53,13 +56,16 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img className="image"
+              <img
+                className="image"
                 src={jordan2}
                 alt="Air Jordan 1 High Zoom CMFT Tropical Twist"
               />
             </div>
             <div className="cardText">
-              <p className="cardTitle">Air Jordan 1 High Zoom CMFT Tropical Twist</p>
+              <p className="cardTitle">
+                Air Jordan 1 High Zoom CMFT Tropical Twist
+              </p>
               <p className="cardDescription">Tênis Air Jordan</p>
               <p className="cardValue">R$ 1.049,00</p>
             </div>
@@ -67,7 +73,11 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img className="image" src={jordan3} alt="Air Jordan 1 Mid Dutch Lilac" />
+              <img
+                className="image"
+                src={jordan3}
+                alt="Air Jordan 1 Mid Dutch Lilac"
+              />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid Dutch Lilac</p>
@@ -78,10 +88,16 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img className="image" src={jordan4} alt='Air Jordan 1 Mid GS "Light Smoke Grey"' />
+              <img
+                className="image"
+                src={jordan4}
+                alt='Air Jordan 1 Mid GS "Light Smoke Grey"'
+              />
             </div>
             <div className="cardText">
-              <p className="cardTitle">Air Jordan 1 Mid GS "Light Smoke Grey"</p>
+              <p className="cardTitle">
+                Air Jordan 1 Mid GS "Light Smoke Grey"
+              </p>
               <p className="cardDescription">Tênis Air Jordan</p>
               <p className="cardValue">R$ 1.585,00</p>
             </div>
@@ -89,7 +105,11 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img className="image" src={jordan5} alt="Air Jordan 1 Mid SE Bright Citrus" />
+              <img
+                className="image"
+                src={jordan5}
+                alt="Air Jordan 1 Mid SE Bright Citrus"
+              />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid SE Bright Citrus</p>
@@ -100,7 +120,11 @@ function App() {
 
           <div className="card">
             <div className="cardImage">
-              <img className="image" src={jordan6} alt="Air Jordan 1 Mid Grey Camo" />
+              <img
+                className="image"
+                src={jordan6}
+                alt="Air Jordan 1 Mid Grey Camo"
+              />
             </div>
             <div className="cardText">
               <p className="cardTitle">Air Jordan 1 Mid Grey Camo</p>
