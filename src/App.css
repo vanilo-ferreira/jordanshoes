@@ -8,51 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/banner.png");
-  background-size: 100% 300%;
-  background-position: top 10% left 80%;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 400px;
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 300px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.logoImage {
-  width: 48px;
-  height: 48px;
-  margin-right: 10px;
-}
-
-.textLogo {
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.bannerTitle {
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.descriptionText {
-  font-size: 24px;
-  font-weight: 400;
-}
-
 .catalog {
   display: flex;
   flex-direction: column;
