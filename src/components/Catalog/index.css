@@ -30,4 +30,34 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1216px;
+}
+
+@media (max-width: 768px) {
+    .catalogText {
+        max-width: 520px;
+    }
+
+    .catalogTitle {
+        font-size: 24px;
+    }
+
+    .catalogParagraph {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .catalogText {
+        max-width: 520px;
+    }
+
+    .catalogTitle {
+        font-size: 20px;
+    }
+
+    .catalogParagraph {
+        font-size: 14px;
+        width: 319px;
+    }
 }

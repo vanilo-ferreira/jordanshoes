@@ -40,3 +40,49 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 336px;
+        height: 326px;
+    }
+
+    .cardImage {
+        width: 336px;
+    }
+
+    .cardTitle {
+        font-size: 18px;
+    }
+
+    .cardDescription {
+        font-size: 14px;
+    }
+
+    .cardValue {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 319px;
+        height: 326px;
+    }
+
+    .cardImage {
+        width: 319px;
+    }
+
+    .cardTitle {
+        font-size: 16px;
+    }
+
+    .cardDescription {
+        font-size: 16px;
+    }
+
+    .cardValue {
+        font-size: 20px;
+    }
+}
