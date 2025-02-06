@@ -21,7 +21,14 @@ export function Card({ name, description, value, image }: Props) {
                         {name}
                     </p>
                     <p className="cardDescription">{description}</p>
-                    <p className="cardValue">R$ {value}</p>
+                    <p className="cardValue">
+                        {
+                            new Intl.NumberFormat("pt-br", {
+                                style: "currency",
+                                currency: "BRL",
+                            }).format(value)
+                        }
+                    </p>
                 </div>
             </div>
         </>
