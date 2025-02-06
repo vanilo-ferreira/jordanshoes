@@ -1,3 +1,5 @@
+import './index.css';
+
 import { produtos } from "../../data/data";
 
 import { Card } from "../Card/Card";
