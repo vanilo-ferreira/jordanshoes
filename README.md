@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# JordanShoes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo
 
-Currently, two official plugins are available:
+Desenvolver um e-commerce virtual para a venda de sapatos da marca Jordan, JordanShoes, utilizando React e TypeScript, com Vite para garantir um ambiente de desenvolvimento mais rápido e otimizado. A aplicação terá uma interface moderna, responsiva e intuitiva, proporcionando uma ótima experiência de navegação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias utilizadas:
+- React – Para criação de uma interface dinâmica e escalável.
+- TypeScript – Para maior segurança e tipagem estática no código.
+- Vite – Para um build mais rápido e eficiente.
 
-## Expanding the ESLint configuration
+Funcionalidades Principais:
+- Campo de Entrada – Permitir que o usuário insira um CEP para consulta.
+- Consumo de API – Fazer uma requisição a uma API externa para obter os dados do CEP.
+- Exibição Dinâmica – Apresentar as informações retornadas de forma clara e organizada.
+- Validação de Entrada – Garantir que apenas CEPs válidos sejam consultados.
+- Estilização Responsiva – Interface amigável e acessível em diferentes dispositivos.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O projeto seguirá boas práticas de desempenho e usabilidade, proporcionando uma experiência fluida ao usuário. 🚀
 
-- Configure the top-level `parserOptions` property like this:
+### Conhecendo o projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+O projeto que foi criado pode ser visto na Figura 1.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<figure>
+  <img align="center" alt="Buscador de CEP" src="./doc/assets/image1.png" />
+  <figcaption align="center">
+    <span style="font-weight:bold">Figura 1.
+    </span>
+  Topo do Projeto.</figcaption>
+</figure>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### `yarn dev`
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Para rodar o projeto no modo de desenvolvimento, execute o comando `yarn dev`.
+Abra [http://localhost:3000](http://localhost:5173) para visualizá-lo em seu navegador.
