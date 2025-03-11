@@ -34,3 +34,8 @@ O projeto que foi criado pode ser visto na Figura 1.
 
 Para rodar o projeto no modo de desenvolvimento, execute o comando `yarn dev`.
 Abra [http://localhost:3000](http://localhost:5173) para visualizá-lo em seu navegador.
+
+### `deploy`
+
+O deploy da aplicação foi realizado na plataforma [Vercel](https://vercel.com/).
+E poderá ser acompanhado através do seguinte link: [Buscador de CEP](https://jordanshoes-lovat.vercel.app/).
