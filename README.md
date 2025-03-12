@@ -38,4 +38,4 @@ Abra [http://localhost:3000](http://localhost:5173) para visualizá-lo em seu na
 ### `deploy`
 
 O deploy da aplicação foi realizado na plataforma [Vercel](https://vercel.com/).
-E poderá ser acompanhado através do seguinte link: [Buscador de CEP](https://jordanshoes-lovat.vercel.app/).
+E poderá ser acompanhado através do seguinte link: [JordanShoes](https://jordanshoes-lovat.vercel.app/).
